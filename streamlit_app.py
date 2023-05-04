@@ -46,7 +46,7 @@ streamlit.stop()
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 
 
-my_data_rows = 
+ 
 streamlit.header("The fruit load list contains:")
 #Snwoflake-related functions
 def get_fruit_load_lisit():
